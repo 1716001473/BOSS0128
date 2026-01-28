@@ -1,0 +1,9 @@
+node_modules/
+.DS_Store
+dist/
+unpackage/
+.hbuilderx/
+*.log
+.vscode/
+.idea/
+src/manifest.json.bak

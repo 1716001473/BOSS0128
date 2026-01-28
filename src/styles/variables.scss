@@ -1,0 +1,75 @@
+/**
+ * 全局样式变量
+ * 定义应用的主题色、字体、间距等
+ */
+
+// ============= 主题色 =============
+// 主渐变色（薄荷绿到淡橙色）
+$primary-gradient: linear-gradient(135deg, #A8D4C2 0%, #E8D4C4 100%);
+
+// 薄荷绿色系
+$mint-light: #D4EDE5;
+$mint: #A8D4C2;
+$mint-dark: #7BC4A8;
+
+// 米橙色系
+$cream-light: #FDF6F0;
+$cream: #F5EDE6;
+$cream-dark: #E8D4C4;
+
+// 强调色
+$accent-orange: #E8AA6E;
+$accent-peach: #F5C9A8;
+
+// ============= 聊天气泡色 =============
+$bubble-ai: $mint;           // AI 消息气泡
+$bubble-user: $cream-dark;   // 用户消息气泡
+$chat-bg: $cream;            // 聊天区域背景
+
+// ============= 文字颜色 =============
+$text-primary: #2D3436;
+$text-secondary: #636E72;
+$text-light: #B2BEC3;
+$text-white: #FFFFFF;
+
+// ============= 背景色 =============
+$bg-page: #FBF7F4;
+$bg-card: #FFFFFF;
+$bg-input: #F8F5F2;
+
+// ============= 边框和阴影 =============
+$border-color: rgba(0, 0, 0, 0.06);
+$shadow-card: 0 8rpx 32rpx rgba(0, 0, 0, 0.08);
+$shadow-button: 0 4rpx 16rpx rgba(168, 212, 194, 0.4);
+
+// ============= 圆角 =============
+$radius-xs: 8rpx;
+$radius-sm: 12rpx;
+$radius-md: 16rpx;
+$radius-lg: 24rpx;
+$radius-xl: 32rpx;
+$radius-full: 9999rpx;
+
+// ============= 间距 =============
+$spacing-xs: 8rpx;
+$spacing-sm: 16rpx;
+$spacing-md: 24rpx;
+$spacing-lg: 32rpx;
+$spacing-xl: 48rpx;
+
+// ============= 字体大小 =============
+$font-xs: 22rpx;
+$font-sm: 24rpx;
+$font-md: 28rpx;
+$font-lg: 32rpx;
+$font-xl: 36rpx;
+$font-xxl: 44rpx;
+
+// ============= 动画时长 =============
+$transition-fast: 0.15s;
+$transition-normal: 0.3s;
+$transition-slow: 0.5s;
+
+// ============= 安全区域 =============
+$safe-area-top: env(safe-area-inset-top);
+$safe-area-bottom: env(safe-area-inset-bottom);

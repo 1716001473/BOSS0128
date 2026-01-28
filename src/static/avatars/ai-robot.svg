@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="robotBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#A8D4C2"/>
+      <stop offset="100%" style="stop-color:#7BC4A8"/>
+    </linearGradient>
+  </defs>
+  <circle cx="50" cy="50" r="48" fill="url(#robotBg)"/>
+  <!-- 机器人头部 -->
+  <rect x="28" y="30" width="44" height="40" rx="8" fill="#fff"/>
+  <!-- 天线 -->
+  <line x1="50" y1="22" x2="50" y2="30" stroke="#fff" stroke-width="3"/>
+  <circle cx="50" cy="20" r="4" fill="#E8AA6E"/>
+  <!-- 眼睛 -->
+  <circle cx="40" cy="45" r="6" fill="#2D3436"/>
+  <circle cx="60" cy="45" r="6" fill="#2D3436"/>
+  <circle cx="42" cy="43" r="2" fill="#fff"/>
+  <circle cx="62" cy="43" r="2" fill="#fff"/>
+  <!-- 嘴巴 -->
+  <rect x="40" y="58" width="20" height="4" rx="2" fill="#2D3436"/>
+</svg>

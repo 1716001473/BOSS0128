@@ -1,0 +1,73 @@
+{
+    "pages": [
+        {
+            "path": "pages/index/index",
+            "style": {
+                "navigationBarTitleText": "",
+                "navigationStyle": "custom",
+                "app-plus": {
+                    "animationType": "slide-in-right"
+                }
+            }
+        },
+        {
+            "path": "pages/chat/chat",
+            "style": {
+                "navigationBarTitleText": "",
+                "navigationStyle": "custom",
+                "app-plus": {
+                    "animationType": "slide-in-right"
+                }
+            }
+        },
+        {
+            "path": "pages/contact/contact",
+            "style": {
+                "navigationBarTitleText": "",
+                "navigationStyle": "custom",
+                "app-plus": {
+                    "animationType": "slide-in-right"
+                }
+            }
+        },
+        {
+            "path": "pages/profile/profile",
+            "style": {
+                "navigationBarTitleText": "",
+                "navigationStyle": "custom",
+                "app-plus": {
+                    "animationType": "slide-in-right"
+                }
+            }
+        }
+    ],
+    "globalStyle": {
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "Companion AI",
+        "navigationBarBackgroundColor": "#F5EDE6",
+        "backgroundColor": "#F5EDE6",
+        "app-plus": {
+            "background": "#F5EDE6"
+        }
+    },
+    "tabBar": {
+        "color": "#999999",
+        "selectedColor": "#A8D4C2",
+        "borderStyle": "black",
+        "backgroundColor": "#ffffff",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "消息",
+                "iconPath": "static/icons/chat.png",
+                "selectedIconPath": "static/icons/chat-active.png"
+            },
+            {
+                "pagePath": "pages/profile/profile",
+                "text": "我的",
+                "iconPath": "static/icons/profile.png",
+                "selectedIconPath": "static/icons/profile-active.png"
+            }
+        ]
+    }
+}
