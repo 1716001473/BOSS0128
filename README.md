@@ -2,7 +2,9 @@
 
 基于 UniApp (Vue3) 开发的跨平台对话类应用，支持 H5、微信小程序、Android 和 iOS 平台。
 
+
 ## � 项目演示
+<img width="575" height="1021" alt="image" src="https://github.com/user-attachments/assets/3994775c-3d2c-4dbc-9224-79780efd27a0" />
 
 > [点击观看真机演示视频](./demo_video.mp4)
 
